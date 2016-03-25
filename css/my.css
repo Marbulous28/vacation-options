@@ -22,7 +22,7 @@
 .instructions{
   border: 1px solid;
   border-style: ridge;
-  background-color: #6BA6D4
+  background-color: #bbd4e7;
 
 }
 
@@ -33,11 +33,12 @@ li{
 h4 {
   text-align: center;
   font-family: sans-serif;
+  color: black
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+.tex{
+  color: black;
+  background-color: white;
 }
 
 body {
@@ -46,4 +47,5 @@ body {
 
 label {
   color: black;
+  font-size: 150%;
 }
