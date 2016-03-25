@@ -19,8 +19,7 @@ $(document).ready(function(){
       vegas += 1;
     } else if (question1 === 3) {
       athens += 1;
-    }
-    else if (question1 === 4) {
+    } else if (question1 === 4) {
       home += 1;
     }
 
@@ -65,13 +64,26 @@ $(document).ready(function(){
     }
 
     if (bahamas >= 3) {
-      alert("Looks like you should take a trip to the Bahamas");
+      $("#here").click(function() {
+        $(".bahamasImg").show();
+      });
+
     } else if (vegas >= 3) {
-      alert("looks like you should party it up in Vegas! Ya!");
+      $("#here").click(function() {
+        $(".vegasImg").show();
+      });
+
     } else if (athens >= 3) {
-      alert("Looks like you should go enjoy the high culture of Athens!");
+      $("#here").click(function() {
+        $(".athensImg").show();
+      });
+
+
     } else if (home >= 3) {
-      alert("looks like you should stay home.");
+      $("#here").click(function() {
+        $(".homeImg").show();
+      });
+
     }
   });
 });

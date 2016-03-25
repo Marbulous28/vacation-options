@@ -1,4 +1,33 @@
 .header {
   text-align: center;
-  background-color: blue
+  background-color: #2DD4CA;
+}
+
+.bahamasImg{
+  display: none;
+}
+
+.vegasImg{
+  display: none;
+}
+
+.homeImg{
+  display: none;
+}
+
+.athensImg{
+  display: none;
+}
+
+.instructions{
+  border: 1px solid black;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
