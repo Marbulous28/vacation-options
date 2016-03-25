@@ -84,6 +84,8 @@ $(document).ready(function(){
         $(".homeImg").show();
       });
 
+    } else {
+      alert("It seems like you have some conflicting feelings about where to go. Refresh the page and try again. This time try to be more consistent.")
     }
   });
 });
